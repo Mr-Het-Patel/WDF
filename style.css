@@ -1,0 +1,102 @@
+*{
+    
+    color: rgb(0, 0, 0);
+    margin: 0%;
+}
+
+body{
+    background-color:white ;
+}
+h1{
+    background-color: blue;
+    color: rgb(234, 240, 246);
+}
+header{
+    background-color:blue;
+    color:white;
+    text-align: center;
+
+}
+nav{
+    color: aliceblue;
+    margin-top: 20px;
+}
+.hero
+{
+    background-color: aliceblue;
+    text-align: center;
+}
+.hero p{
+    margin: 10px;
+}
+.vvv{
+    
+    color: blue;
+}
+.vvv:hover{
+    background-color: darkblue;
+    color: aliceblue;
+}
+section
+{
+    padding: 10px;
+}
+.card-container{
+    text-align: center;
+}
+.card
+{
+    display: inline-block;
+    width: 300px;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 15px;
+    border: 10px;
+}
+.card h3{
+    color: blue;
+    margin-bottom: 10px;
+}
+footer
+{
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.m:hover{
+    background-color: blue;
+}
+.m1:hover:hover{
+    background-color: blue;
+}
+.m2:hover{
+    background-color: blue;
+}
+.m3:hover{
+    background-color: blue;
+}
+.m4:hover{
+    background-color: blue;
+}
+.m5:hover{
+    background-color: blue;
+}
+.m6:hover{
+    background-color: blue;
+}
+.m7:hover{
+    background-color: blue;
+}
+.m8:hover:hover{
+    background-color: blue;
+}
+.m9:hover{
+     background-color: blue;   
+}
+.ttt{
+    background-color: aliceblue;
+    color: red;
+}
