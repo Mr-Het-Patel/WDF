@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "title": "Tech Seminar",
+    "date": "2026-08-30",
+    "venue": "Auditorium",
+    "category": "Seminar",
+    "description": "Emerging trends in artificial intelligence, neural architectures, and intelligent systems."
+  },
+  {
+    "id": 2,
+    "title": "Hackathon 2026",
+    "date": "2026-09-02",
+    "venue": "Innovation Lab",
+    "category": "Competition",
+    "description": "24-hour rapid software development marathon tackling real-world university challenges."
+  },
+  {
+    "id": 3,
+    "title": "Library Orientation",
+    "date": "2026-09-04",
+    "venue": "Central Library",
+    "category": "Academic",
+    "description": "Comprehensive guide to online journals, research indexing, and reference libraries."
+  },
+  {
+    "id": 4,
+    "title": "Coding Contest",
+    "date": "2026-09-07",
+    "venue": "Lab 3",
+    "category": "Competition",
+    "description": "Speed algorithmic coding contest testing data structures and optimization skills."
+  },
+  {
+    "id": 5,
+    "title": "Sports Day",
+    "date": "2026-09-10",
+    "venue": "University Ground",
+    "category": "Sports",
+    "description": "Annual university track and field competitions and inter-department sports tournament."
+  },
+  {
+    "id": 6,
+    "title": "Web Development Workshop",
+    "date": "2026-09-15",
+    "venue": "Lab 304, IT Building",
+    "category": "Workshop",
+    "description": "Modern frontend development with Bootstrap, JavaScript DOM manipulation, and responsive UX."
+  },
+  {
+    "id": 7,
+    "title": "Cyber Security Awareness",
+    "date": "2026-09-18",
+    "venue": "Seminar Hall 1",
+    "category": "Seminar",
+    "description": "Practical session on defense against phishing, credential breaches, and web application exploits."
+  },
+  {
+    "id": 8,
+    "title": "Cultural Fest - Spoural 2026",
+    "date": "2026-09-22",
+    "venue": "Main Amphitheatre",
+    "category": "Cultural",
+    "description": "Flagship university celebration showcasing music, classical dance, and drama performances."
+  },
+  {
+    "id": 9,
+    "title": "Cloud Computing Bootcamp",
+    "date": "2026-09-25",
+    "venue": "Computer Center 2",
+    "category": "Workshop",
+    "description": "Introduction to containerization, AWS cloud architecture, and serverless computing."
+  },
+  {
+    "id": 10,
+    "title": "Inter-College Badminton Tournament",
+    "date": "2026-09-28",
+    "venue": "Sports Complex Court 1",
+    "category": "Sports",
+    "description": "Singles and doubles badminton championship between Gujarat engineering institutions."
+  },
+  {
+    "id": 11,
+    "title": "Robotics & IoT Showcase",
+    "date": "2026-10-02",
+    "venue": "Robotics Lab",
+    "category": "Competition",
+    "description": "Interactive autonomous robot navigation and micro-controller automation exhibition."
+  },
+  {
+    "id": 12,
+    "title": "Alumni Mentorship Round",
+    "date": "2026-10-05",
+    "venue": "Conference Hall",
+    "category": "Seminar",
+    "description": "Career guidance, higher education opportunities, and corporate interview prep with alumni."
+  },
+  {
+    "id": 13,
+    "title": "Open Source Contribution Sprint",
+    "date": "2026-10-09",
+    "venue": "Innovation Hub",
+    "category": "Workshop",
+    "description": "Hands-on Git version control, pull requests, and contributing to open-source software."
+  },
+  {
+    "id": 14,
+    "title": "Photography & Fine Arts Exhibition",
+    "date": "2026-10-14",
+    "venue": "Art Gallery",
+    "category": "Cultural",
+    "description": "Student artistic display covering visual photography, oil painting, and digital artwork."
+  },
+  {
+    "id": 15,
+    "title": "Chess & Mind Games Championship",
+    "date": "2026-10-18",
+    "venue": "Student Activity Hall",
+    "category": "Sports",
+    "description": "Rapid and blitz chess tournament with FIDE time control regulations."
+  },
+  {
+    "id": 16,
+    "title": "Entrepreneurship Summit",
+    "date": "2026-10-22",
+    "venue": "Auditorium Hall A",
+    "category": "Seminar",
+    "description": "Pitch deck presentations, venture capital perspectives, and student startup incubation."
+  }
+]

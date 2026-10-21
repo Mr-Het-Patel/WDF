@@ -1,0 +1,86 @@
+/* Student Dashboard Stylesheet */
+.welcome-card {
+    background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(13, 110, 253, 0.15);
+}
+
+.notice-banner {
+    background-color: #fff3cd;
+    border: 1px solid #ffe69c;
+    color: #664d03;
+    border-radius: 6px;
+    padding: 10px 16px;
+    font-size: 0.95rem;
+}
+
+[data-bs-theme="dark"] .notice-banner {
+    background-color: #332701;
+    border-color: #664d03;
+    color: #ffda6a;
+}
+
+.kpi-card {
+    border-radius: 8px;
+    border: 1px solid #bfdbfe;
+    background: #ffffff;
+    padding: 16px;
+    height: 100%;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.kpi-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(13, 110, 253, 0.08);
+}
+
+[data-bs-theme="dark"] .kpi-card {
+    background: #1e293b;
+    border-color: #1e3a8a;
+}
+
+.kpi-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #0d6efd;
+    text-transform: uppercase;
+}
+
+.kpi-value {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #0d47a1;
+    margin: 4px 0 8px;
+}
+
+[data-bs-theme="dark"] .kpi-value {
+    color: #93c5fd;
+}
+
+.highlights-container {
+    background: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 18px 24px;
+}
+
+[data-bs-theme="dark"] .highlights-container {
+    background: #1e293b;
+}
+
+.slider-slide {
+    display: none;
+    animation: fadeIn 0.3s ease;
+}
+
+.slider-slide.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateX(5px); }
+    to { opacity: 1; transform: translateX(0); }
+}

@@ -1,0 +1,28 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# PHP environment
+.env
+
+# Uploads & generated files
+uploads/posters/*.jpg
+uploads/posters/*.jpeg
+uploads/posters/*.png
+uploads/posters/*.gif
+uploads/posters/*.webp
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Temp
+*.tmp
+*.temp

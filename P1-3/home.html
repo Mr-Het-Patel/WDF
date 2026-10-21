@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 5.3 CSS: responsive grid, utilities, cards, forms and components. -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>StudentHub | Home</title>
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="home.html">StudentHub Portal</a>
+            <!-- Bootstrap navbar-toggler: mobile-first collapsible navigation. -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container my-5"><!-- Bootstrap hero card + spacing/typography utilities. -->
+        <section class="card bg-primary-subtle border-0 shadow-sm text-center mb-5">
+            <div class="card-body p-4 p-md-5">
+                <h2 class="display-5 fw-bold">Welcome to StudentHub</h2>
+                <p class="lead">StudentHub is a portal where students can register, login, manage their profile, view
+                    events, contact the college and submit feedback.</p><a href="register.html"
+                    class="btn btn-primary btn-lg">Get Started</a>
+            </div>
+        </section>
+        <section>
+            <h2 class="text-center fw-bold mb-4">Portal Features</h2>
+            <!-- Bootstrap responsive grid + cards: 1 column mobile, 3 on larger screens. -->
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <article class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <h3 class="h5">Student Registration</h3>
+                            <p>Create your account quickly and securely.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-4">
+                    <article class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <h3 class="h5">Upcoming Events</h3>
+                            <p>View seminars, workshops and college events.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-4">
+                    <article class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <h3 class="h5">Student Dashboard</h3>
+                            <p>Access your profile and latest updates.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <div class="container">© 2026 StudentHub Portal</div>
+    </footer>
+    <!-- Bootstrap JS bundle: enables navbar and accordion interactions. -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

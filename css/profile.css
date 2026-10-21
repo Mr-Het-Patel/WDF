@@ -1,0 +1,26 @@
+/* Profile Stylesheet */
+.avatar-circle {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 3px solid #0d6efd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+    background: #e0e7ff;
+    color: #1e40af;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+[data-bs-theme="dark"] .avatar-circle {
+    background: #1e3a8a;
+    color: #93c5fd;
+    border-color: #3b82f6;
+}
+
+.profile-card {
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}

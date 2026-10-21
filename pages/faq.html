@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions | CHARUSAT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary-dark shadow-sm">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="home.html">
+                <span class="badge bg-white text-primary fw-bold px-2 py-1">CHARUSAT</span>
+                <span class="fw-bold tracking-wide">CHARUSAT STUDENT HUB</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="attendance.html">Attendance</a></li>
+                    <li class="nav-item"><a class="nav-link" href="timetable.html">Timetable</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="d-flex align-items-center gap-2">
+                    <button class="btn btn-outline-light btn-sm" id="themeToggleBtn">Dark</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-4" style="max-width: 900px;">
+        <header class="mb-4 text-center">
+            <h1 class="h3 fw-bold text-primary mb-1">Frequently Asked Questions</h1>
+            <p class="text-muted small">Answers to common queries regarding registration, course enrollments, and events.</p>
+        </header>
+
+        <div class="accordion" id="generalFaqAccordion">
+            <div class="accordion-item mb-3 border rounded shadow-sm">
+                <h2 class="accordion-header">
+                    <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                        How do I log in to the StudentHub portal?
+                    </button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#generalFaqAccordion">
+                    <div class="accordion-body small text-secondary">
+                        Enter your university student enrollment number (e.g., STU2026001) or registered university email alongside your chosen password on the login page.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item mb-3 border rounded shadow-sm">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                        What is the minimum attendance threshold required for semester exams?
+                    </button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#generalFaqAccordion">
+                    <div class="accordion-body small text-secondary">
+                        As per university academic regulations, a minimum cumulative attendance of 75% across all theoretical and laboratory sessions is mandatory to be eligible for university end-semester examinations.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item mb-3 border rounded shadow-sm">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                        How can I participate in campus hackathons and technical seminars?
+                    </button>
+                </h2>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#generalFaqAccordion">
+                    <div class="accordion-body small text-secondary">
+                        Visit the Campus Events & Activities directory, search or filter by category, and click on details to submit your participation enrollment.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center py-3 text-muted small mt-auto border-top bg-white">
+        © 2026 CHARUSAT Student Hub - Charotar University of Science and Technology
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/common.js"></script>
+</body>
+</html>
